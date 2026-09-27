@@ -83,7 +83,7 @@ jobs:
         fi
 
         if [ -z "$target_duration" ]; then
-          target_duration="30-50"
+          target_duration="10-20"
         fi
 
         echo "TARGET_DURATION=$target_duration" >> "$GITHUB_ENV"
